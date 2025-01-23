@@ -1,0 +1,40 @@
+Dip entra imagen sale imagen, filtrado
+computer vision emula la vision humana, toma decisiones con lo que ve, reconoce imagenes interpresta escenas, medidas sobre un ibjeto
+
+DIP ejemplo: aplicar filtro para mejorar bordes en rayos x 
+VC ejemplo: recomocimiento y seguimiento de un organo en una secuencia de imagenes
+
+Diagnostic accuracy 
+therapeutic innovation, drive innovation in medical treatmentsand surgical intervention 
+Research advancement, ro assist profesionals on their interventions 
+
+
+General DIP outline:
+problem domain -> acquisition -> enhancement/pre processing (allows better interpretation/could be the last step) -> restoration 
+-> motphological processing (related to the shape of the objects in the image) -> segmentation (decomposition of an image into its parts) 
+-> object recognition (group by characteristics) -> representation and description 
+-> colour image processing (more computationally expensive) - image compression (optimal way of storing)
+
+A digital image: to obtain digital image sampling is needed. Digital image is a two dimensional representation 
+made up of pixels (so image is an approximation of a real scene), pixels values represents gray levels, colours, opacities..
+
+Grayscale -> 1 sample per point (black or white)
+RGB -> 3 sample per point 
+RGB + opacity (alpha) -> 4 samples per point
+
+Ultrasound -> TASK
+
+Sampling (Resolution) -> sample frequency, discret set points (samples) 
+Quantization (intensity levels / dynamic range) -> assigning discrete valuess to the samples, 8 bits (0 black to 255 white)
+
+IMAGE PROPIETIES:
+Resolution -> pixels
+Colour depth -> # of bits used to represent each pixels
+File fromat -> the way image data is stored in a file (jpg* png bmp tiff webp* // dicom nifti) *Lightweight 
+Metadata -> extra details
+compression
+Channels
+Histogram -> graphical representation of the distribution of pixel intensities. H(i) = n sub i
+Brightness -> overall lightness or darkness (IS LIKE A MATHEMATICAL AVERAGE)
+Sharpness -> measure of how well defined and detailed the edges appear. (LAPLACIANO / DIRECTIONAL DERIVATIVE)
+Contrast -> (IS LIKE A MATHEMATICAL STANDARD DEVIATION)
