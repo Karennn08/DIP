@@ -5,10 +5,6 @@ import sklearn
 import jupyter
 import cv2
 
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
-
 # Mostrar imagen
 image = cv2.imread(r'C:\Users\karen\OneDrive\Escritorio\DIP\250123\brain.png')
 cv2.imshow('Imagen', image)
