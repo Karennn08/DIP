@@ -25,13 +25,13 @@ plt.ylabel('Número de píxeles')
 plt.show()
 
 # Brillo (promedio de intensidad)
-brillo = np.mean(image)
-print('Brillo promedio:', brillo)
+bright = np.mean(image)
+print('Brillo promedio:', bright)
 
 # Cuantización
-niveles_unicos = np.unique(image) # Obtener los valores únicos de la imagen
-num_niveles = len(niveles_unicos) # Contar los niveles únicos
-print('Cuantizacion:', num_niveles)
+unique_levels = np.unique(image) # Obtener los valores únicos de la imagen
+num_levels = len(unique_levels) # Contar los niveles únicos
+print('Cuantizacion:', num_levels)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()  # Cierra todas las ventanas abiertas por OpenCV
