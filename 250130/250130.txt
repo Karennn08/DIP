@@ -1,0 +1,10 @@
+Image is a matrix, with # value in each psition.
+
+Operaciones pre procesamiento:
+
+Adicion = nos permite agregar brillo a una imagen
+
+
+
+TASK: Using typeset, image type, sataset, specific pathology. KAGGLE, ZENODO 
++ LATEX REPORT : analisis de 2 articulos pre priccesing (spacial filtering)
