@@ -2,7 +2,8 @@ Dip entra imagen sale imagen, filtrado
 computer vision emula la vision humana, toma decisiones con lo que ve, reconoce imagenes interpresta escenas, medidas sobre un ibjeto
 
 DIP ejemplo: aplicar filtro para mejorar bordes en rayos x 
-VC ejemplo: recomocimiento y seguimiento de un organo en una secuencia de imagenes
+VC ejemplo: recomocimiento y seguimiento de un organo en una secuencia de imagenes, computer vision emula la vision humana,
+toma decisiones con lo que ve,
 
 Diagnostic accuracy 
 therapeutic innovation, drive innovation in medical treatmentsand surgical intervention 
