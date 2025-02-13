@@ -1,0 +1,27 @@
+Geometric Scaling - ZOOM: modify image size, add info, add pixels, that arent real, just an interpolation of other pixels
+
+it is a 2 steps strategy:
+1 generate matrix with ideal size
+2 give new values to the matrix using the original values:
+-nearest neighbor -> pixels fill with the nearest real pixel value. Repeat values
+-interpolation (bilineal and bicubic) -> dependig the interpolation function new positions are generated.
+-filter based -> 
+-convolutional super resolution ->
+This resizing is often necessary in order to feed models of AI.
+
+
+Gray scale transformation: 
+Non linear transformation, spacial domain. is applied to each pixel
+
+must satisfy 2 things:
+1 single values and monotonically increasing in interval 0 < r <1
+2 the resulting values 0 < T < 1
+L maximum dinamic range
+
+- NEGATIVE: from (0 L-1) to (L-1 to 0) inverts the colors
+- LOGARITMIC: s = c * log(1+r) c determines the maximum value, be careful not to overload, improve visualization of dark regions
+- EXPONENTIAL: gama constant, s = c * r
+r<1 similar logaritmic
+r = 1 identity
+r>1 similar exponential
+
