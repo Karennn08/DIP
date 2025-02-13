@@ -13,9 +13,8 @@ class Persona:
 
 #Crear una instancia
 persona1 = Persona('Mariana','Nieto', 21)
-persona2 = Persona('Majo','Rodriguez', 21)
+persona2 = Persona('Karen','Arango', 20)
 persona1.saludar()
 persona2.saludar()
 
 #INTERFACES GRAFICAS: kivy o cualquier otro framework
-#
