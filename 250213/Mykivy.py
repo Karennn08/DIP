@@ -5,6 +5,7 @@ from kivy.uix.button import Button
 from kivy.uix.image import Image
 from kivy.graphics.texture import Texture
 import cv2
+from plyer import filechooser
 
 class miVentana(BoxLayout): #herencia, definir mi ventana a partir de la libreria
     def __init__(self,**kwargs): #CONSTRUCTOR DE LA CLASE
@@ -23,9 +24,13 @@ class miVentana(BoxLayout): #herencia, definir mi ventana a partir de la libreri
         
 
     def cargar_imagen(self,instance):
+        filechooser.open_file(on_selection = self.selection)
+    
+    def selection(self, selection):
         self.L.text = 'Auch!'
         #self.image.source = (r"C:\Users\karen\OneDrive\Escritorio\DIP\250206\1-037.JPG")
-        imagenCV = cv2.imread(r"C:\Users\karen\OneDrive\Escritorio\DIP\250206\1-037.JPG")
+        #imagenCV = cv2.imread(r"C:\Users\karen\OneDrive\Escritorio\DIP\250206\1-037.JPG")
+        imagenCV = cv2.imread(selection[0])
         buffer = cv2.flip(imagenCV, 0).tostring() #convierte imagen a vector tipo texto
         textura = Texture.create(size = (imagenCV.shape[1], imagenCV.shape[0]), colorfmt = 'bgr')
         textura.blit_buffer(buffer, colorfmt = 'bgr', bufferfmt = 'ubyte')
