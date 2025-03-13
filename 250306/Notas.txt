@@ -1,0 +1,40 @@
+Color properties:
+Radiance
+luminance
+brightness
+
+We see red, green and blue. primary. This is for light, pigments are another story
+Magenta, cyan, yellow. secundary
+
+NOt all colors can be represented by monitors, there are a triangular of accuracy
+
+
+COLOR SPACES MODELS:
+3 dimencional coordinated system
+RGB -> monitors, cameras
+CMYK (k its combination of all 3, not good quality, couse of that printers add extra black ink) -> printers
+YIQ -> TV transmission
+
+Cubic representation of RGB
+
+
+Other spaces:
+HSI color space: hue, saturation, intensity
+
+Conversion between rgb and hsi
+it has 3 formulas for H, S and I
+
+
+YCBCR -> espacio con diferencias entre blue y red
+
+
+APPLICATIONS:
+
+working on different spaces if for different applications. Spaces allow us to separate information of an image.
+In medical image is very important cause color can determinate a patology.
+Pattern recognition for neaural network
+
+
+RGB -> easy to understand, widely use
+HSI -> SEPARATE COLOR AND INTENSITY, intuitive, non linearity
+YCBCR -> SEPARATE COLOR AND INTENSITY, efficience for compressison, complex transformation between spaces
