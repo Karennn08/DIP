@@ -38,3 +38,10 @@ Pattern recognition for neaural network
 RGB -> easy to understand, widely use
 HSI -> SEPARATE COLOR AND INTENSITY, intuitive, non linearity
 YCBCR -> SEPARATE COLOR AND INTENSITY, efficience for compressison, complex transformation between spaces
+
+
+Segmentation -> separate backround and interest objects
+
+Imbinarize -> en matlab pone un umbral para asignar que es fondo y que es objto de interes (hay global y adaptativo con metodo de otsu-> SE CALCULA CON HIST y su desv estandar)
+
+Separar basada en similitudes:
