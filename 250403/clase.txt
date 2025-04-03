@@ -1,0 +1,14 @@
+La caracterizacion de la imagene s la que me da lo importante
+
+Feature extraction: 
+-Geometric 2D 3D
+-Morphologia matematica
+-Stadistica: contraste, brillo y otras mas profundas
+-Textura: radiomix
+-Histograma
+
+Que caracteristica podemos usar?
+-Shape features: necesitamos una segmentacion, ajuste con operaciones morphologicas
+		y binarizacion(mascara) para luego calcular descriptores de forma.
+-Texture features: trabajo sobre la imagen original y aplico una mascara
+		me interesa lo que hay en las regiones, no su forma
